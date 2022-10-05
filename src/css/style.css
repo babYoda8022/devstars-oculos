@@ -1,0 +1,246 @@
+@import url(global.css);
+
+header nav{
+    background-color: var(--navMenu);
+}
+
+header #menus{
+    display: none;
+}
+
+header nav span{
+    color: var( --text2);
+    padding-right: 6.4rem;
+    font-size: 2.4rem;
+    cursor: pointer;
+    font-weight: 600;
+    position: relative;
+    transition: .5s;
+}
+
+header nav a:first-child{
+    padding-left: 23rem;
+}
+
+header nav button{
+    margin: 1.6rem 0;
+    padding: 1.6rem 3.2rem;
+    font-size: 2.4rem;
+    background-color: var(--btn);
+    color: var(--text1);
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+/*section-1*/
+
+.title{
+    font-weight: 700;
+    font-size: 1.8rem;
+
+}
+
+.section-1{
+    background-image: url(../img/slide/slide-1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text h1{
+    font-size: 10.3rem;
+}
+
+.text p{
+    margin-top: 3.2rem;
+    font-size: 4rem;
+}
+
+.text p, .text h1{
+    color: var(--text1);
+}
+
+.text{
+   padding: 25rem 2rem 30rem 75rem;
+}
+
+/*section-2*/
+
+.section-2{
+    display: flex;   
+    background-color: var(--backgourd1);
+
+}
+.section-2 .box-1{
+    margin: 12rem 0;
+    margin-left: 13.5rem;
+}
+
+.section-2 .box-1 img{
+    width: 47.6rem;
+    height: 73.9rem;
+    border-radius: 1rem;
+}
+
+.section-2 .box-2{
+    margin: 18.4rem 10rem 18.4rem 11.9rem;
+}
+
+.section-2 .box-2 h1{
+    padding: 1.6rem 0 3.2rem 0;
+}
+
+.section-2 .box-2 p:first-child{
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.section-2 .box-2 p{
+    line-height: 4rem;
+    font-weight: 400;
+    font-size: 2.4rem;
+}
+
+/*section-3*/
+.section-3{
+    background-color: var(--backgourd2);
+
+}
+
+.section-3 .section-content{
+    display: flex;
+}
+
+.section-3 .section-content .box-1 p:first-child{
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.section-3 .section-content .box-1 p{
+    line-height: 4rem;
+    font-weight: 400;
+    font-size: 2.4rem;
+    color: var(--text1);
+}
+.section-3 .section-content .box-1 h1{
+    color: var(--text1);
+    margin: 1.6rem 0 3.2rem 0;
+}
+
+.section-3 .section-content .box-1{
+    padding: 10rem 3rem 0 10rem;
+}
+
+.section-3 .section-content .box-2 img{
+    width: 57.5rem;
+    height: 55.3rem;
+    border-radius: 1rem;
+}
+
+.section-3 .section-content .box-2 {
+    margin: 8rem 10rem 0 5rem ;
+}
+
+.section-3 .box-3{
+    margin-top: 11.5rem
+}
+
+.section-3 .box-3 h2{
+    font-family: Playfair;
+    margin: 0 44rem;
+    font-size: 3rem;
+    color: var(--text1);
+}
+
+.section-3 .box-3 .logos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    padding: 4rem 20rem 8rem 20rem;
+}
+
+/*section-4*/
+
+.section-4{
+    background-color: var(--backgourd1)
+}
+
+.section-4 .box-1 img{
+    margin: 12rem 0 6.9rem 0;
+    margin-left: 7rem;
+    width: 117rem;
+    height: 32rem;
+}
+.section-4 .box-2{
+    margin: 0 40rem;
+}
+
+.section-4 .box-2 h1{
+    padding: 1.6rem 0 3.2rem 0;
+}
+
+.section-4 .box-2 button{
+    margin: 4rem 0 12rem 0;
+    padding: 1.6rem 3.2rem;
+    font-size: 2.4rem;
+    background-color: var(--btn);
+    color: var(--text1);
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+/*footer*/
+
+footer{
+    background-color: var(--backgourd2);
+}
+
+footer{
+    padding: 8rem 0 4rem 0;
+}
+
+footer .box-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    margin: 0 25rem ;
+}
+
+footer .box-1 .sub-box h2{
+    font-size: 2.4rem;
+    color: var(--text1);
+}
+
+footer .box-1 .sub-box p{
+    
+    font-size: 1.6rem;
+    color: var(--text1);
+}
+
+footer .box-2 p{
+    padding-top: 7rem;
+    font-weight: 400;
+    font-size: 1.4rem;
+    text-align: center;
+    color: var(--text1);
+}
+
+/*houver*/
+
+header nav span:after{
+    position: absolute;
+    content: '';
+    height: .15rem;
+    width: 0%;
+    background-color: rgb(245, 38, 107);
+    top: 3rem;
+    left: 0;
+    transition: .5s;
+}
+
+header nav span:hover{
+    color: rgb(245, 38, 107);
+}
+
+header nav span:hover::after{
+    width: 80%;
+}

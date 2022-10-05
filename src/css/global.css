@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+
+html, body, *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    font-size: 10px;
+    border: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+html{
+    --navMenu: rgba(239, 241, 237, 1);
+    --backgourd1: rgba(239, 241, 237, 1);
+    --backgourd2: rgba(80, 90, 91, 1);
+    --text1: rgba(239, 241, 237, 1);
+    --text2: rgba(80, 90, 91, 1);
+    --btn: rgba(80, 90, 91, 1);
+}
+
+h1, p{
+    color: var(--text2);
+}
+
+p{
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 4rem;
+}
+
+h1{
+    font-family: Playfair;
+    font-weight: 900;
+    font-size: 5.6rem;
+}
